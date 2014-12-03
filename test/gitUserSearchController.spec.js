@@ -1,5 +1,3 @@
-
-
 describe('GitUserSearchController', function(){
 
   beforeEach(module('GitUserSearch'));
