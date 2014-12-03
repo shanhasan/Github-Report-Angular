@@ -1,4 +1,8 @@
 // Karma configuration
+<<<<<<< HEAD
+=======
+// Generated on Thu Nov 27 2014 10:43:21 GMT+0000 (GMT)
+>>>>>>> abb4f881e090dfde02b8a32cc13d62b1ce4e298f
 
 module.exports = function(config) {
     config.set({
