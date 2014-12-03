@@ -1,15 +1,8 @@
 {
-<<<<<<< HEAD
-  "name": "github_profile_angular",
-  "version": "0.0.0",
-  "authors": [
-    "Shan Hasan <shan119@hotmail.co.uk>"
-=======
   "name": "github-report-angular",
   "version": "0.0.0",
   "authors": [
     "ablease <alexblease@gmail.com>"
->>>>>>> e4b456b32de85bccb8d2a87e44b589c1dc0d7c57
   ],
   "license": "MIT",
   "ignore": [
