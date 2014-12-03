@@ -1,0 +1,26 @@
+{
+  "name": "github-report-angular",
+  "version": "1.0.0",
+  "description": "============================== Walkthrough is available https://github.com/makersacademy/Walkthroughs/blob/master/angularjs.md Video from lecture https://www.youtube.com/watch?v=72KRFITGGts ---------------------------------------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ablease/github-report-angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ablease/github-report-angular/issues"
+  },
+  "homepage": "https://github.com/ablease/github-report-angular",
+  "devDependencies": {
+    "jasmine-core": "^2.1.3",
+    "karma": "^0.12.28",
+    "karma-chrome-launcher": "^0.1.6",
+    "karma-jasmine": "^0.3.2",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}
