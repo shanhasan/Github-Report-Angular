@@ -1,3 +1,3 @@
-githubUserSearch.controller('GitUserSerachController', function($scope){
+githubUserSearch.controller('GitUserSearchController', function($scope){
 
 });
