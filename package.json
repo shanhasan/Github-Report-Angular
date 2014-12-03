@@ -1,35 +1,21 @@
 {
-<<<<<<< HEAD
-  "name": "github_profile_angular",
-=======
   "name": "github-report-angular",
->>>>>>> abb4f881e090dfde02b8a32cc13d62b1ce4e298f
   "version": "1.0.0",
-  "description": "============================== Walkthrough is available https://github.com/makersacademy/Walkthroughs/blob/master/angularjs.md Video from lecture https://www.youtube.com/watch?v=72KRFITGGts ---------------------------------------",
+  "description": "============================== Walkthrough is available https://github.com/makersacademy/Walkthroughs/blob/master/angularjs.mdVideo from lecture https://www.youtube.com/watch?v=72KRFITGGts ---------------------------------------",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-<<<<<<< HEAD
-    "url": "https://github.com/shanhasan/Github-Report-Angular.git"
-=======
     "url": "https://github.com/ablease/github-report-angular.git"
->>>>>>> abb4f881e090dfde02b8a32cc13d62b1ce4e298f
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-<<<<<<< HEAD
-    "url": "https://github.com/shanhasan/Github-Report-Angular/issues"
-  },
-  "homepage": "https://github.com/shanhasan/Github-Report-Angular",
-=======
     "url": "https://github.com/ablease/github-report-angular/issues"
   },
   "homepage": "https://github.com/ablease/github-report-angular",
->>>>>>> abb4f881e090dfde02b8a32cc13d62b1ce4e298f
   "devDependencies": {
     "jasmine-core": "^2.1.3",
     "karma": "^0.12.28",
