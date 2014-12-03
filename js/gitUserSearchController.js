@@ -7,5 +7,8 @@ githubUserSearch.controller('GitUserSearchController', function($scope, $resourc
     $scope.searchResult = searchResource.get({
       q: $scope.searchTerm
     });
+    $scope.image.width = img.width;
+    $scope.image.height = img.height;
+    
   };
 });
