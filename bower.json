@@ -1,15 +1,8 @@
 {
-<<<<<<< HEAD
   "name": "github_profile_angular",
   "version": "0.0.0",
   "authors": [
     "Shan Hasan <shan119@hotmail.co.uk>"
-=======
-  "name": "github-report-angular",
-  "version": "0.0.0",
-  "authors": [
-    "ablease <alexblease@gmail.com>"
->>>>>>> 8eb974f859b6ec5374242ac6a4ace270469d1971
   ],
   "license": "MIT",
   "ignore": [
@@ -24,5 +17,9 @@
     "bootstrap": "~3.3.1",
     "angular": "~1.3.5",
     "angular-resource": "~1.3.5"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.3.5",
+    "angular-route": "~1.3.5"
   }
 }
