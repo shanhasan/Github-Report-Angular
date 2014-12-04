@@ -1,4 +1,6 @@
 <!DOCTYPE HTML>
+
+<h1> Git Search </h1>
 <html lang="en" ng-app="GitUserSearch">
   <head>
     <meta charset="utf-8">
@@ -18,6 +20,7 @@
       <form class="form-horizontal">
         <input type="text" class="textbox" ng-model="searchTerm" ng-change="doSearch()" ng-model-options="{ updateOn: 'default blur', debounce: {'default': 400, 'blur': 0}}">
         <button class="btn" ng-click="doSearch()">Search</button>
+      </div>
       </form>
       <ul class="list-group" ng-repeat="user in searchResult.items">
         <li>
