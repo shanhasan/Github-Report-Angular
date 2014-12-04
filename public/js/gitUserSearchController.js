@@ -1,14 +1,19 @@
 githubUserSearch.controller('GitUserSearchController', function($scope, $resource){
 
   var searchResource = $resource('https://api.github.com/search/users');
+<<<<<<< HEAD
   // var searchRepo = $resource('');
+=======
+  var count = 0, result_length, search_result = [];
+>>>>>>> fbdabf4bb7bbebb6e64927e433c60dce4d0f019e
 
   $scope.doSearch = function() {
-    if($scope.searchResult !== "") {
-      $scope.$apply();
-      $scope.searchResult = searchResource.get({
+
+    $scope.hello = 'uefsd';
+      searchResource.get({
         q: $scope.searchTerm,
         access_token: "91d8e96fd50ab4006e5925eb6471c6784894b8d8" 
+<<<<<<< HEAD
       });
     };
     // if($scope.searchRepos !== ""){
@@ -41,3 +46,26 @@ githubUserSearch.controller('GitUserSearchController', function($scope, $resourc
  //         });
  //      }
  //   }
+=======
+      }, function(results){
+        result_length = results.items.length;
+
+        results.items.forEach(function(item){
+        var userRepos = $resource(item.repos_url);
+        userRepos.query({
+          access_token: "91d8e96fd50ab4006e5925eb6471c6784894b8d8"
+        }, function(repos) {
+                        $scope.hello = "yoooo"
+          var repo_count = repos.length;
+          item.repoCount = repo_count;
+          search_result.push(item)
+          count++;
+          if (count === result_length) {
+              $scope.searchResult = search_result;
+          }
+        });
+      });  
+    });
+  } 
+});
+>>>>>>> fbdabf4bb7bbebb6e64927e433c60dce4d0f019e
