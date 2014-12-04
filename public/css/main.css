@@ -30,8 +30,7 @@ form {
 }
 
 .form-horizontal {
-/*  background: white;
-*/  border: black, 5px;
+  border: black, 5px;
   margin: 5%;
   border-color: #000000;
 

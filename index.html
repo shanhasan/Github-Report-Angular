@@ -25,6 +25,7 @@
       <ul class="list-group" ng-repeat="user in searchResult.items">
         <li>
            <img ng-src="{{user.avatar_url}}&s=50" width="75px" height="75px">
+           <div id="stuff">{{users.{followers_url.count}} </div>
            <a ng-href="{{user.html_url}}">{{user.login}}</a>
         </li>
       </ul>
