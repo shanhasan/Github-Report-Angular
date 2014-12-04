@@ -2,10 +2,12 @@ html.ngscope{
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+  margin: auto;
 }
 
 body {
   margin-left: 5%;
+  vertical-align: middle;
 }
 
 .ul {
@@ -13,16 +15,27 @@ body {
   border: red;
 }
 
+form {
+  width: 500px;
+}
+
 .form-horizontal {
   background: white;
   border: black, 5px;
   margin: 5%;
+  width: 500px;
 
 }
 
 .form-horizontal .btn {
   background-color: white;
   border-radius: 5px;
+  width: 500px;
+}
+
+.form-horizontal .textbox {
+  width: 500px;
+  height: 30px;
 }
 
 
