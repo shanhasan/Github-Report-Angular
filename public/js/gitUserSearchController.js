@@ -1,7 +1,7 @@
 githubUserSearch.controller('GitUserSearchController', function($scope, $resource){
 
-  var searchResource = $resource('https://api.github.com/users');
-  var searchRepo = $resource('');
+  var searchResource = $resource('https://api.github.com/search/users');
+  // var searchRepo = $resource('');
 
   $scope.doSearch = function() {
     if($scope.searchResult !== "") {
