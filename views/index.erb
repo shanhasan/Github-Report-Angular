@@ -22,11 +22,12 @@
         <button class="btn" ng-click="doSearch()">Search</button>
       </div>
       </form>
-      <ul class="list-group" ng-repeat="user in searchResult.items">
+      <ul class="list-group" ng-repeat="user in searchResult">
         <li>
            <img ng-src="{{user.avatar_url}}&s=50" width="75px" height="75px">
            <a ng-href="{{user.html_url}}">{{user.login}}</a>
            <p>{{user.public_repos}}</p>
+           <p>{{user.repoCount}}</p>
         </li>
       </ul>
     </div>
