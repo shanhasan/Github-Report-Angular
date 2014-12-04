@@ -1,4 +1,6 @@
+
 {
+  "directory": "public",
   "name": "github_profile_angular",
   "version": "0.0.0",
   "authors": [
