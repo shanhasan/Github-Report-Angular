@@ -24,14 +24,10 @@
       </form>
       <ul class="list-group" ng-repeat="user in searchResult">
         <li>
-           <img ng-src="{{user.avatar_url}}&s=50" width="75px" height="75px">
+           <img ng-src="{{user.avatar_url}}&s=50" width="100px" height="100px  ">
            <a ng-href="{{user.html_url}}">{{user.login}}</a>
-<<<<<<< HEAD
-           <p>{{user.followers_url}}</p>
-=======
            <p>{{user.public_repos}}</p>
            <p>{{user.repoCount}}</p>
->>>>>>> fbdabf4bb7bbebb6e64927e433c60dce4d0f019e
         </li>
       </ul>
     </div>
